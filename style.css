@@ -1,0 +1,152 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: rgb(187, 153, 126);
+  transform: rotate(179deg);
+
+}
+
+div {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  margin: 10px auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  min-width: 100px;
+  transform: rotate(181deg);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 35%;
+  transform: rotate(1deg);
+  transform: rotate3d(1, 1, 1, -0.01turn);
+}
+
+p {
+  color: rgb(94, 60, 60);
+  transform: rotate(1deg);
+}
+
+h1, h2 {
+  color: rgb(88, 51, 17);
+  transform: rotate(-1deg);
+}
+
+.button_wagon {
+  background-color: rgb(200, 162, 113);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+}
+
+.button_wagon:hover {
+  background-color: rgb(150, 112, 63);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: green; */
+  transform: rotate(-2deg);
+}
+
+li {
+  width: 200px;
+  margin: 5px 0;
+  padding: 10px;
+  /* background-color: rgb(255, 0, 0); */
+  transform: rotate(1deg);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(109, 65, 12);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px;
+  transform: rotate(1deg);
+
+}
+
+a:hover {
+  background-color: rgb(150, 112, 63);
+}
+
+i {
+  transform: rotate3d(1, 1, 1, 20deg);
+}
+
+.desc:hover {
+  transform: rotate3d(-2, 2, 2, -0.5turn);
+  transform: translate3d(-2.7rem, 6, 1rem);
+}
+
+p:hover {
+  transform: rotate3d(-2, 2, 2, -0.2turn);
+  transform: translate3d(-2.7rem, 6, 1rem);
+  /* background-color: rgb(255, 255, 255); */
+}
+
+h1:hover{
+  background-color: palegreen;
+  transform: rotate3d(-2, 2, 2, -0.2turn);
+  transform: translate3d(-2.7rem, 6, 1rem);
+}
+
+li:hover{
+  background-color: rgb(194, 194, 194);
+  transform: rotate3d(-2, 2, 2, -0.2turn);
+  transform: translate3d(-2.7rem, 6, 1rem);
+}
+
+img:hover {
+  transform: rotate3d(-2, 2, 2, -0.5turn);
+  transform: translate3d(-2.7rem, 6, 1rem);
+  border-radius: 50%;
+}
+
+h2:hover{
+  transform: translate(200px);
+}
+
+
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
