@@ -33,6 +33,7 @@ p {
 h1, h2 {
   color: rgb(88, 51, 17);
   transform: rotate(-1deg);
+  transition-duration: 500ms;
 }
 
 .button_wagon {
@@ -45,6 +46,7 @@ h1, h2 {
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 12px;
+  transition-duration: 500ms;
 }
 
 .button_wagon:hover {
@@ -90,6 +92,7 @@ a {
   margin: 4px 2px;
   border-radius: 12px;
   transform: rotate(1deg);
+  transition-duration: 500ms;
 
 }
 
@@ -99,7 +102,9 @@ a:hover {
 
 }
 
-
+.desc{
+  transition-duration: 5s;
+}
 
 .desc:hover {
   transform: rotate3d(-2, 2, 2, -0.5turn);
@@ -133,6 +138,10 @@ li:hover{
 
 }
 
+img{
+  transition-duration: 500ms;
+}
+
 img:hover {
   transform: rotate3d(-2, 2, 2, -0.5turn);
   transform: translate3d(-2.7rem, 6, 1rem);
@@ -151,6 +160,11 @@ h2:hover{
   transform: rotate3d(-2, 2, 2, 0turn);
   transform: translate3d(0, 0, 0);
   transform: rotate(2deg);
+  transition-duration: 500ms;
+  width: 50px;
+}
+#beige{
+  transition-duration: 500ms;
 }
 
 #beige:hover{
@@ -158,6 +172,11 @@ h2:hover{
   color:rgb(187, 153, 126);
   transition-duration: 5s;
 }
+
+#blanc{
+  transition-duration: 500ms;
+}
+
 #blanc:hover{
   transition-duration: 5s;
   transform: translate(-49%);
